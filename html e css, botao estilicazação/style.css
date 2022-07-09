@@ -1,0 +1,55 @@
+:root {
+    --cor-primaria-sucess : rgb(75, 200, 138);
+    --cor-hover-sucess : rgb(116, 158, 137);
+    --cor-secundaria-sucess : rgb(36, 92, 64);
+
+    --cor-primaria-danger : rgb(255, 0, 0);
+    --cor-hover-danger : rgb(208, 255, 0);
+    --cor-secundaria-danger : rgb(55, 0, 252);
+
+}
+
+
+
+.btn {
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 20px;
+}
+
+.btn-sucess {
+    background-color: var(--cor-primaria-sucess);
+    outline: none;
+    color: var(--cor-secundaria-sucess);
+    
+}
+
+.btn-sucess:hover {
+    background-color: var(--cor-hover-sucess);
+
+}
+
+.btn-sucess:active {
+    color: palevioletred;
+    background-color: var(--cor-secundaria-sucess);
+}
+
+.btn-danger {
+    background-color: var(--cor-primaria-sucess);
+    outline: none;
+    color: var(--cor-secundaria-sucess);
+    
+}
+
+.btn-danger:hover {
+    background-color: var(--cor-hover-sucess);
+
+}
+
+.btn-danger:active {
+    color: palevioletred;
+    background-color: var(--cor-secundaria-sucess);
+}
